@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding-top: 60px;
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+
+.menu-superiore{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#speaker-view{
+    background-color: grey;
+    padding: 5px;
+    border-radius: 10%;
+    margin: 5px 20px;
+}
+
+#arrow{
+    padding: 5px;
+    background-color: grey;
+    border-radius: 10%;
+    margin-top: 5px;
+}
+
