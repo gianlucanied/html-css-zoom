@@ -5,16 +5,17 @@
 }
 
 body{
-    padding-top: 60px;
+    padding-top: 35px;
     background-color: black;
     color: white;
     height: 100vh;
 }
 
 .menu-superiore{
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
+    z-index: 500;
 }
 
 #speaker-view{
@@ -30,4 +31,42 @@ body{
     border-radius: 10%;
     margin-top: 5px;
 }
+
+.nome{
+    position: relative;
+    bottom: 25px;
+    width: 100px;
+    background-color: gray;
+}
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.utenti {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.utente {
+        width: 250px;
+        padding: 10px 3px;
+}
+
+#console-comandi{
+    height: 100px;
+    background-color: red;
+    width: 100%;
+}
+
+
+
+
+
+
+
 
