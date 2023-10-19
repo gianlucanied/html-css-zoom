@@ -92,5 +92,44 @@ footer {
     cursor: pointer;
 }
 
+.mute-class{
+    margin-right: 10px;
+}
+
+
+.video-class{
+    margin-left: 10px;
+}
+
+.user-plus{
+    margin-right: 10px;
+}
+
 .user-group{
+    margin-right: 10px;
+}
+
+.column{
+    margin-right: 10px;
+}
+
+.share-screen{
+    margin-right: 10px;
+}
+
+.chat{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.record{
+    margin-right: 15px;
+}
+
+.square{
+    margin-right: 15px;
+}
+
+.more{
+    margin-right: 15px;
 }
