@@ -51,6 +51,7 @@ body{
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
+    margin-bottom: 60px;
 }
 
 .utente {
@@ -91,3 +92,5 @@ footer {
     cursor: pointer;
 }
 
+.user-group{
+}
