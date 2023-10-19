@@ -51,11 +51,11 @@ body{
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .utente {
-        width: 250px;
+        width: 210px;
         padding: 10px 3px;
 }
 
