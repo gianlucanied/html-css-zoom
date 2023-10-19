@@ -23,6 +23,7 @@ body{
     padding: 5px;
     border-radius: 10%;
     margin: 5px 20px;
+    cursor: pointer;
 }
 
 #arrow{
@@ -30,6 +31,7 @@ body{
     background-color: grey;
     border-radius: 10%;
     margin-top: 5px;
+    cursor: pointer;
 }
 
 .nome{
@@ -38,7 +40,6 @@ body{
     width: 100px;
     background-color: gray;
 }
-
 
 .container {
     width: 90%;
@@ -57,16 +58,36 @@ body{
         padding: 10px 3px;
 }
 
-#console-comandi{
-    height: 100px;
-    background-color: red;
-    width: 100%;
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    justify-content: space-between;
 }
 
+.left-footer{
+    padding: 20px 15px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    cursor: pointer;
+}
 
+.central-footer{
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    padding-top: 30px;
+}
 
-
-
-
-
+.right-footer{
+    color: red;
+    background-color: rgba(128, 128, 128, 0.608);
+    padding: 25px;
+    cursor: pointer;
+}
 
